@@ -1,0 +1,31 @@
+[33mcommit d8ae192e653b53cf6e0d5c2325fc6a801b8668e6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Krishnakhatal2910 <141248117+Krishnakhatal2910@users.noreply.github.com>
+Date:   Thu Aug 3 22:43:28 2023 +0530
+
+    Create Continue.java
+
+[1mdiff --git a/src/demo/Continue.java b/src/demo/Continue.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..30be27a[m
+[1m--- /dev/null[m
+[1m+++ b/src/demo/Continue.java[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m[32mpackage demo;[m
+[32m+[m
+[32m+[m[32mpublic class Continue {[m
+[32m+[m
+[32m+[m	[32mpublic static void main(String[] args) {[m
+[32m+[m[41m	[m
+[32m+[m		[32mfor(int i=1;i<=10;i++) {[m
+[32m+[m[41m			[m
+[32m+[m			[32mif(i==4) {[m
+[32m+[m[41m				[m
+[32m+[m				[32mcontinue;[m
+[32m+[m			[32m}[m
+[32m+[m			[32mSystem.out.println(i);[m
+[32m+[m[41m			[m
+[32m+[m		[32m}[m
+[32m+[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m
